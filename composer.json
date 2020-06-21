@@ -1,9 +1,17 @@
 {
-    "name": "jxclsv/laravel-package-kickstarter",
-    "description": "Basic Boilerplate for Laravel package development",
+    "name": "jxclsv/:package_name",
+    "description": ":package_description",
     "keywords": [
         "jxclsv",
         ":package_name"
+    ],
+    "authors": [
+        {
+            "name": "asd",
+            "email": ":author_email",
+            "homepage": "https://github.com/jxclsv/:package_name",
+            "role": "Tech Lead"
+        }
     ],
     "homepage": "https://github.com/jxclsv/:package_name",
     "require": {
@@ -15,14 +23,6 @@
         "phpunit/phpunit": "^9.2"
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Justin",
-            "email": "justinxclusive@gmail.com",
-            "homepage": "https://github.com/jxclsv/:package_name",
-            "role": "Tech Lead"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Jxclsv\\LaravelPackageKickstarter\\": "src"
@@ -52,5 +52,4 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
 }

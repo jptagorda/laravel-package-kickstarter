@@ -44,7 +44,7 @@ find . -type f -exec sed -i '' -e "s/:author_email/$author_email/g" {} \;
 find . -type f -exec sed -i '' -e "s/:package_name/$package_name/g" {} \;
 find . -type f -exec sed -i '' -e "s/:package_description/$package_description/g" {} \;
 
-sed -i '' -e "/^\*\*Note:\*\* Replace/d" README.md
+# sed -i '' -e "/^\*\*Note:\*\* Replace/d" README.md
 
 echo "Replaced all values and reset git directory, self destructing in 3... 2... 1..."
 
