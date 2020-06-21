@@ -7,7 +7,7 @@
     ],
     "authors": [
         {
-            "name": "asd",
+            "name": ":author_name",
             "email": ":author_email",
             "homepage": "https://github.com/jxclsv/:package_name",
             "role": "Tech Lead"
