@@ -1,19 +1,19 @@
 {
-    "name": "jxclsv/package_name",
+    "name": "jxclsv/laravel-package-kickstarter",
     "description": ":package_description",
     "keywords": [
         "jxclsv",
-        "package_name"
+        "laravel-package-kickstarter"
     ],
     "authors": [
         {
             "name": "asd",
             "email": "justinxclusive@gmail.com",
-            "homepage": "https://github.com/jxclsv/package_name",
+            "homepage": "https://github.com/jxclsv/laravel-package-kickstarter",
             "role": "Tech Lead"
         }
     ],
-    "homepage": "https://github.com/jxclsv/package_name",
+    "homepage": "https://github.com/jxclsv/laravel-package-kickstarter",
     "require": {
         "php": "^7.2.5"
     },
