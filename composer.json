@@ -1,19 +1,19 @@
 {
-    "name": "jxclsv/:package_name",
+    "name": "jxclsv/package_name",
     "description": ":package_description",
     "keywords": [
         "jxclsv",
-        ":package_name"
+        "package_name"
     ],
     "authors": [
         {
             "name": "asd",
             "email": "justinxclusive@gmail.com",
-            "homepage": "https://github.com/jxclsv/:package_name",
+            "homepage": "https://github.com/jxclsv/package_name",
             "role": "Tech Lead"
         }
     ],
-    "homepage": "https://github.com/jxclsv/:package_name",
+    "homepage": "https://github.com/jxclsv/package_name",
     "require": {
         "php": "^7.2.5"
     },
