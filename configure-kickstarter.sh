@@ -38,11 +38,11 @@ fi
 
 echo
 
-find . -type f -exec perl -i -pe "s/Justin/$author_name/g" ./composer.json {} +;
-find . -type f -exec perl -i -pe "s/jxclsv/$author_username/g" ./composer.json {} +;
-find . -type f -exec perl -i -pe "s/justinxclusive.com/$author_email/g" ./composer.json {} +;
-find . -type f -exec perl -i -pe "s/laravelings/$package_name/g" ./composer.json {} +;
-find . -type f -exec perl -i -pe "s/sample description/$package_description/g" ./composer.json {} +;
+find . -type f -exec perl -i -pe "s/:author_name/$author_name/g" ./composer.json {} +;
+find . -type f -exec perl -i -pe "s/:author_username/$author_username/g" ./composer.json {} +;
+find . -type f -exec perl -i -pe "s/:author_email/$author_email/g" ./composer.json {} +;
+find . -type f -exec perl -i -pe "s/:package_name/$package_name/g" ./composer.json {} +;
+find . -type f -exec perl -i -pe "s/:package_description/$package_description/g" ./composer.json {} +;
 # sed -i '' -e "/^\*\*Note:\*\* Replace/d" README.md
 
 echo "Replaced all values and reset git directory, self destructing in 3... 2... 1..."
